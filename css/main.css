@@ -22,23 +22,45 @@ body {
   width: 320px;
   position: relative;
   margin: 0 auto;
+  padding: 1em;
+  top: 39px;
+  left: -15px;
 }
 
 .robot-body {
   width: 320px;
   display: block;
   margin: 0 auto;
+  top: auto;
 }
 
 .robot-brain {
   margin: -23px;
-  width: 46px;
-  width: 320px;
+  width: 42px;
   position: absolute;
+  top: 39px;
+  right: 146px;
 }
 
-.robot-head-right,
 .robot-head-left {
   width: 125px;
   position: absolute;
+  margin: -23px;
+  right: 167px;
+  top: 0;
+  z-index: 1000;
+}
+
+.robot-head-right {
+  margin: 45px;
+  right: -25px;
+  top: -68px;
+  width: 125px;
+  position: absolute;
+  z-index: 2000;
+}
+
+.robot:hover {
+  top: -80px;
+  right: 20px;
 }
